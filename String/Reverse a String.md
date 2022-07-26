@@ -16,4 +16,4 @@ Output : s = "skeegrofskeeg"
 
 Links:
 
-https://www.geeksforgeeks.org/program-reverse-string-iterative-recursive/
+[program-reverse-string-iterative-recursive](https://www.geeksforgeeks.org/program-reverse-string-iterative-recursive/)
