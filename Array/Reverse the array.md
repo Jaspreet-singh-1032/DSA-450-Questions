@@ -16,4 +16,4 @@ Output : arr[] = {2, 1, 5, 4}
 
 Links:
 
-https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/
+[write-a-program-to-reverse-an-array-or-string](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)
