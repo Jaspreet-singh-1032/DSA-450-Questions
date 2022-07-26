@@ -26,4 +26,4 @@ min = 1, max = 56789
 
 Links:
 
-https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/
+[maximum-and-minimum-in-an-array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
