@@ -2,34 +2,21 @@
 
 Difficulty Level : Medium
 
-Given a linked list of N nodes such that it may contain a loop.
+Given the head of a linked list that may contain a loop.  A loop means that the last node of the linked list is connected back to a node in the same list.  So if the next of the previous node is null. then there is no loop.  Remove the loop from the linked list, if it is present (we mainly need to make the next of the last node null). Otherwise, keep the linked list as it is.
 
-A loop here means that the last node of the link list is connected to the node at position X(1-based index). If the link list does not have any loop, X=0.
+Note: Given an integer, pos (1 based index)  Position of the node to which the last node links back if there is a loop. If the linked list does not have any loop, then pos = 0.
 
-Remove the loop from the linked list, if it is present, i.e. unlink the last node which is forming the loop.
+The generated output will be true if your submitted code is correct, otherwise, false.
 
 **Examples :**
 
 ```
-Input:
-N = 3
-value[] = {1,3,4}
-X = 2
-Output: 1
-Explanation: The link list looks like
-1 -> 3 -> 4
-     ^    |
-     |____|    
-
-Input:
-N = 4
-value[] = {1,8,3,4}
-X = 0
-Output: 1
-Explanation: The Linked list does not 
-contains any loop
+Input: Linked list: 1->3->4, pos = 2
+Output: true
+Explanation: The linked list looks like
+A loop is present. If you remove it successfully, the answer will be true. 
 ```
 
 Links:
 
-[detect-and-remove-loop-in-a-linked-list](https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/)
+[detect-and-remove-loop-in-a-linked-list](https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)

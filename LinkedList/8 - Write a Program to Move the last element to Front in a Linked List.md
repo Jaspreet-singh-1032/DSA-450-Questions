@@ -2,18 +2,16 @@
 
 Difficulty Level : Easy
 
-Given a linked list, move the last node to the front in a given Singly Linked List.
+You are given the head of a Linked List. You have to move the last element to the front of the Linked List and return the head the modified linked list.
 
 **Examples :**
 
 ```
-Input: 1->2->3->4->5
-Output: 5->1->2->3->4 
-
-Input: 3->8->1->5->7->12
-Output: 12->3->8->1->5->7
+Input: Linked List: 2->5->6->2->1
+Output: 1->2->5->6->2
+Explanation: In the given linked list, the last element is 1, after moving the last element to the front the linked list will be 1->2->5->6->2
 ```
 
 Links:
 
-[move-last-element-to-front-of-a-given-linked-list](https://www.geeksforgeeks.org/move-last-element-to-front-of-a-given-linked-list/)
+[move-last-element-to-front-of-a-given-linked-list](https://www.geeksforgeeks.org/problems/move-last-element-to-front-of-a-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
