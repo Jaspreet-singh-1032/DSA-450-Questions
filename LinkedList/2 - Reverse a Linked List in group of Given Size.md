@@ -2,20 +2,16 @@
 
 Difficulty Level : Medium
 
-Given a linked list, write a function to reverse every k nodes (where k is an input to the function). 
+Given a linked list, the task is to reverse every k node (where k is an input to the function) in the linked list. If the number of nodes is not a multiple of k then left-out nodes, in the end, should be considered as a group and must be reversed (See Example 2 for clarification).
 
 **Examples :**
 
 ```
-Input: 1->2->3->4->5->6->7->8->NULL
-k = 3 
-Output: 3->2->1->6->5->4->8->7->NULL 
-
-Input: 1->2->3->4->5->6->7->8->NULL
-k = 5 
-Output: 5->4->3->2->1->8->7->6->NULL
+Input: Linked List: 1->2->2->4->5->6->7->8, k = 4
+Output: 4 -> 2 -> 2 -> 1 -> 8 -> 7 -> 6 -> 5 
+Explanation: The first 4 elements 1,2,2,4 are reversed first and then the next 4 elements 5,6,7,8. Hence, the resultant linked list is 4->2->2->1->8->7->6->5.
 ```
 
 Links:
 
-[reverse-a-linked-list-in-groups-of-given-size](https://www.geeksforgeeks.org/reverse-a-linked-list-in-groups-of-given-size/)
+[reverse-a-linked-list-in-groups-of-given-size](https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)

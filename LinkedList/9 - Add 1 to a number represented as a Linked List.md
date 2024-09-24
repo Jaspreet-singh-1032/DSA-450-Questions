@@ -2,20 +2,18 @@
 
 Difficulty Level : Medium
 
-Number is represented in linked list such that each digit corresponds to a node in linked list. Add 1 to it. For example 1999 is represented as (1-> 9-> 9 -> 9) and adding 1 to it should change it to (2->0->0->0).
+You are given a linked list where each element in the list is a node and have an integer data. You need to add 1 to the number formed by concatinating all the list node numbers together and return the head of the modified linked list. 
+
+Note: The head represents the first element of the given array.
 
 **Examples :**
 
 ```
-Input: 4->5->6
+Input: LinkedList: 4->5->6
 Output: 457
-Explanation: 4->5->6 represents 456 and when 1 is added it becomes 457. 
-
-Input: 1->2->3
-Output: 124
-Explanation: 1->2->3 represents 123 and when 1 is added it becomes 124.
+Explanation: 4->5->6 represents 456 and when 1 is added it becomes 457
 ```
 
 Links:
 
-[add-1-number-represented-linked-list](https://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
+[add-1-number-represented-linked-list](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
